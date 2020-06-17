@@ -4,13 +4,12 @@
     <link rel="stylesheet" href="Web.css" type="text/css">
     <body style="background-color:rgb(177, 246, 255);"></body>
     <img src="sky_studious_logo.jpg"style="width:120px;height:120px;">
-    <ul>
-        <li><a href="default.asp">Home</a></li>
-        <li><a href="news.asp">News</a></li>
-        <li><a href="contact.asp">Contact</a></li>
-        <li><a href="about.asp">About</a></li>
-        <li><a href="about.asp">Shop</a></li>
-      </ul>
+    <div class="topnav">
+        <a class="active" href="#home">Home</a>
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+        <a href="#about">About</a>
+      </div>
     <h2>Welcome to Sky Studious </h2>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
